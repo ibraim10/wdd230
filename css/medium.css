@@ -1,0 +1,35 @@
+@media only screen and (max-width: 710px){
+    header h1{
+        font-size: 2em;
+    }
+    img{
+        height: 180px;    
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .head{
+        display: block;
+    }
+    header h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    img{
+        height: 180px;
+        grid-row: 2/3; 
+        margin: auto;
+        display: block;
+    }
+    footer{
+        width: 100vw;
+    }
+    main{
+        width: 70vw;
+    }
+    ul{
+        margin: none;
+        padding-right: 2.5em;
+        font-size: 1.1em;
+    }
+}
