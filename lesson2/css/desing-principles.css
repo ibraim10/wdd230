@@ -1,0 +1,75 @@
+/* 
+COLORS
+.color1 {color: #011627;}
+.color1 {color: #FF0022;}
+.color1 {color: #41EAD4;}
+.color1 {color: #FDFFFC;}
+ */
+
+*{
+    font-family: 'Cousine', monospace, sans-serif;
+    
+}
+body{
+    background-color: #011627;
+    color: #FDFFFC;
+}
+header{
+    background-color:  #41EAD4;
+    color: #011627;
+    text-align: center;
+}
+h1{
+    margin: auto;
+}
+img{
+    width: 80%;
+    padding: 1.5em;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 4em;
+    justify-content: space-evenly; 
+    justify-items: center;
+    padding: 3em;
+}
+section{
+
+    box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+-webkit-box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+-moz-box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+}
+
+h2{
+    color: #FDFFFC;
+    margin: auto;
+    padding: 0.5em 0.3em;
+    margin-bottom: 1em;
+}
+h3{
+    color: #FF0022;
+
+}
+a{
+    
+    color: #41EAD4;
+    text-decoration: none;
+    padding: 0 0 1em 0;
+}
+
+.sectionP{
+    line-height : 2em;
+    padding: 1em;
+    text-align: left;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 0.5em 0;
+    border-top: #FF0022 solid;
+    border-bottom: #FF0022 solid;
+    margin-bottom: 1em;
+}
