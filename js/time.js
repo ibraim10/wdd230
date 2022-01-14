@@ -1,7 +1,9 @@
-// let currentDateAndTime = Date();
+const lastModified = document.querySelector('#lastUpdate');
+// document.querySelector('lastUpdate').innerHTML = lastModified
+lastModified.innerHTML = document.lastModified
 
-// document.write("It is now "+currentDateAndTime);
+const currentTime = new Date();
 
-var string = document.lastModified;
-document.write(string);
-// returns: Tuesday, December 16, 2017 11:09:42
+const year = currentTime.getFullYear();
+
+document.querySelector('#year').innerHTML = year;
