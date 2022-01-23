@@ -13,8 +13,16 @@ COLORS
 body{
     background-color: #011627;
     color: #FDFFFC;
+    
 }
-
+.container{
+    margin: auto;
+    width: 75%;
+    background-color: #011627;
+    box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+    -webkit-box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+    -moz-box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
+}
 header{
     background-color: #41EAD4;
     color: #011627;
@@ -25,38 +33,19 @@ h1{
     margin: auto;
     padding: 0.5em;
 }
-/*nav {
-	display: flex;
-	flex-direction: column;
-}*/
-nav{
-    text-align: center;
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
 }
-nav{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    list-style: none;
-}
-#bHome{
-    grid-column: 1/2;
-}
-#bTarget{
-    grid-column: 2/3;
-}
-#bColor{
-    grid-column: 3/4;
-}
-#btypo{
-    grid-column: 4/5;
-}
-nav li {
-	
-	color: #fff;
-	text-align: center;
-	padding: 1em;
-	
-	font-size: 1em;
-    border: solid #011627 1px;
+nav ul { display: flex; }
+nav ul li { 
+    flex: 1 1 auto; 
+    padding: 0 0.5em;
+    padding-bottom: 1em;
+} 
+
+nav a {
+    font-size: 1rem;
 }
 nav a:hover {
 	background-color: #708080;
