@@ -33,24 +33,38 @@ h1{
     margin: auto;
     padding: 0.5em;
 }
+ul{
+    margin: auto;
+    padding: 0%;
+}
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
 }
-nav ul { display: flex; }
+nav ul { 
+    display: flex; 
+    color: #FDFFFC;
+}
 nav ul li { 
     flex: 1 1 auto; 
     padding: 0 0.5em;
     padding-bottom: 1em;
+    text-align: center;
+
 } 
 
 nav a {
     font-size: 1rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, transparent, #011627, transparent) top /
+    var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+    color: #011627;
 }
 nav a:hover {
-	background-color: #708080;
-	color: yellow;
-    
+	background-color: #011627;
+	color: #FDFFFC;
+    font-size: 103.5%;
 }
 main{
     margin: auto;

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 740px){
+    h1{
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    nav li{
+        border-bottom: solid #011627 0.1px;
+        margin-top: 1em;
+        border: 0, -5em;
+    }
+}
