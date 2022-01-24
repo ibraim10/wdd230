@@ -13,4 +13,11 @@
         margin-top: 1em;
         border: 0, -5em;
     }
+    .container{
+        width: 95%;
+    }
+
+    img{
+        width: 35%;
+    }
 }

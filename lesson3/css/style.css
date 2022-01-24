@@ -17,7 +17,7 @@ body{
 }
 .container{
     margin: auto;
-    width: 75%;
+    width: 85%;
     background-color: #011627;
     box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
     -webkit-box-shadow: 8px 20px 38px -13px rgba(64,234,212,0.57);
@@ -84,4 +84,16 @@ footer{
     border-top: #FF0022 solid;
     border-bottom: #FF0022 solid;
     margin-top: 1em;
+}
+main p{
+    padding: 1em;
+}
+#colors{
+    width: 80%;
+    border: solid #FDFFFC 0.2px;
+}
+.people{
+    color: #41EAD4;
+    line-height: 0.2em;
+    margin-bottom: -0.8em;
 }
