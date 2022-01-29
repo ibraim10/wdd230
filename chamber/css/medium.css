@@ -1,0 +1,57 @@
+/* 
+COLORS
+.color1 {color: #011627;}
+.color1 {color: #FF0022;}
+.color1 {color: #41EAD4;}
+.color1 {color: #FDFFFC;}
+ */
+
+/*35 rem is olso 560px when base font is 16px*/
+@media only screen and (min-width: 40rem){
+    /*---------header-----*/
+    nav button{
+        display: none;
+    }
+    nav{
+        margin: 1.5em 1em;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    nav ul li{
+        display: flex;
+        width: 100%;
+    }
+    nav ul li a{
+        padding: 0.6em 1em;        
+    }
+    /*-----------main--------*/
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero{
+        grid-column: 1/4;
+    }
+    .news{
+        grid-column: 1/4;
+    }
+    .action{
+        grid-column: 1/3;
+    }
+    .join{
+        grid-column: 3/4;
+    }
+    .weather{
+        grid-column: 1/2;
+    }
+    .events{
+        grid-column: 2/4;
+    }
+    .spot{
+        grid-column: 1/4;
+    }
+    /*---------footer---------*/
+}
