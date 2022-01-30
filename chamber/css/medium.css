@@ -31,6 +31,10 @@ COLORS
     main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        height: 100vh;
+    }
+    main section{
+        height: 100%;
     }
     .hero{
         grid-column: 1/4;
@@ -54,4 +58,33 @@ COLORS
         grid-column: 1/4;
     }
     /*---------footer---------*/
+    footer{
+        display: grid;
+        justify-content: space-between;
+        border-top: 1px solid #FF0022;
+        border-bottom: 1px solid #FF0022;
+        margin-bottom: 1.5em;
+    }
+
+    footer section:nth-child(1){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    footer img{
+        grid-column: 1/2;
+        margin: auto;
+        width: 40%;
+        align-self: center;
+        justify-self: center;
+    }
+    footer .infoContact{
+        grid-column: 2/3;
+    }
+    footer section:nth-child(2){
+        border: none;
+    }
 }
