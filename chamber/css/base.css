@@ -160,3 +160,21 @@ footer img{
 footer section:nth-child(2){
     border-top: 1.4px solid #FF0022;
 }
+/*------content-----*/
+section.hero {
+    background: url(/chamber/img/Trajineras-Xochimilco.jpg);
+    background-size: cover;
+}
+section.hero h2{
+    color: #FDFFFC;
+    text-shadow: 4px 4px 6px #011627;
+    font-size: 2em;
+    margin-top: 25%;
+}
+section.hero button{
+    background: #41EAD4;
+    border: #011627;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 4px 4px 6px #011627;
+}
