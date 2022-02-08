@@ -45,7 +45,7 @@ COLORS
         grid-column: 1/3;
     }
     .join{
-        grid-column: 3/4;
+        grid-column: 1/4;
     }
     .weather{
         grid-column: 1/2;
@@ -54,8 +54,12 @@ COLORS
         grid-column: 2/4;
     }
     .spot{
-        grid-column: 1/3;
+        grid-column: 1/4;
         grid-row: 3/4;
+    }
+    section.spot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     /*---------footer---------*/
     footer{

@@ -52,7 +52,6 @@ nav ul{
 }
 nav ul li a{
     display: block;
-	
     padding: 0.5em 0;
     text-decoration: none;
     color: #41EAD4;
@@ -73,6 +72,7 @@ header p{
 }
 nav ul li a:hover{
     background-color: rgba(65, 234, 212, 0.3);
+    transition: 0.3s;
 }
 /*-----------social media icons----------*/
 .fa {
@@ -87,6 +87,7 @@ nav ul li a:hover{
 
 .fa:hover {
     background-color: rgba(255, 0, 34, .8);
+    transition: 0.5s;
 }
 
 .fa-facebook {
@@ -108,6 +109,10 @@ nav ul{
 nav ul.open{
     display: block;
 }
+#hamburguerBtn:hover{
+    color: #FF0022;
+    transition: 0.3s;
+}
 #hamburguerBtn span:nth-child(1){
     display: block;
 }
@@ -124,7 +129,7 @@ nav ul.open{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1.2em;
+    grid-gap: 1.5em;
     align-items: center;
     justify-content: center;
     align-items: center;
@@ -182,7 +187,7 @@ main h2{
 section p{
     padding: 0 1em;
 }
-button{
+main button{
     background: #41EAD4;
     border: #011627;
     padding: 1em;
@@ -199,4 +204,11 @@ section.spot img{
     width: 20%;
     padding: 1em;
 }
-
+main button:hover{
+    background-color: #FF0022;
+    border: 3px outset rgba(65, 234, 212, 0.5);
+    box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
+    -webkit-box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
+    -moz-box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
+    transition: 0.3s;
+}

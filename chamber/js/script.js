@@ -20,3 +20,4 @@ const fullDateUk = new Intl.DateTimeFormat('en-UK', {
     dateStyle: 'full'
 }).format(currentTime);
 dateUK.innerHTML = fullDateUk;
+
