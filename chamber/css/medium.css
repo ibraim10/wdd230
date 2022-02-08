@@ -31,7 +31,6 @@ COLORS
     main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        height: 100vh;
     }
     main section{
         height: 100%;
@@ -55,7 +54,8 @@ COLORS
         grid-column: 2/4;
     }
     .spot{
-        grid-column: 1/4;
+        grid-column: 1/3;
+        grid-row: 3/4;
     }
     /*---------footer---------*/
     footer{
