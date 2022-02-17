@@ -21,3 +21,13 @@ const fullDateUk = new Intl.DateTimeFormat('en-UK', {
 }).format(currentTime);
 dateUK.innerHTML = fullDateUk;
 
+//BANNER
+let day = currentTime.getDay();
+
+let message;
+
+if (day >= 1 && day <= 3){
+    message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+}
+
+document.querySelector('.banner').textContent = message;

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+img{
+    margin: auto;
+    display: flex;
+    padding: 1em;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+div{
+    margin: auto;
+    border: 2px solid red;
+    width: 50%;
+    background-color: aliceblue;
+}

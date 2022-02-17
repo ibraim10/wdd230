@@ -19,3 +19,5 @@ btn.addEventListener('click', function(){
     })
     input.focus();
 })
+
+//https://lfernandoportugal.github.io/wdd230/lesson5/bom.html
