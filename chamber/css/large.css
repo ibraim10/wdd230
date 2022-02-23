@@ -74,6 +74,10 @@
         bottom: 25%;
         right: -10%;   
     }
+    /*-------MAIN_GALLERY----------*/
+    main.content-gallery{
+        width: 40%;
+    }
     /*-----------footer----------*/
     footer{
         display: block;
