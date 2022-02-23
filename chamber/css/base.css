@@ -151,6 +151,31 @@ main section{
     -webkit-box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
     -moz-box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
 }
+main section.weather div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2em;
+}
+main section.weather img{
+    width: 70%;
+    align-self: center;
+    justify-self: end;
+}
+main section.weather{
+    margin: auto; 
+    padding: 0;
+}
+.t{
+    font-size: 200%;
+    justify-self: start;
+    padding: 0;
+    padding-left: 0.4em;
+    margin-bottom: 0;
+}
+main section.weather h2{
+    margin-bottom: 0;
+}
+
 /*-----------footer----------*/
 footer{
     padding: 1em;
@@ -173,18 +198,37 @@ footer section:nth-child(2){
     border-top: 1.4px solid #FF0022;
 }
 /*------content-----*/
-section.hero {
+/* section.hero {
     background: url(../img/Trajineras-Xochimilco.jpg);
     background-size: cover;
+} */
+img{
+    width: 100%;
+}
+section.hero{
+    display: inline-block;
+    position: relative;
 }
 section.hero h2{
+    position: absolute;
     color: #FDFFFC;
     text-shadow: 4px 4px 6px #011627;
     font-size: 2em;
-    margin-top: 25%;
+    bottom: 32%;
+    left: -5%;
+    z-index: 15;
+    margin: 0;
+    padding-left: 1em;
 }
 section.hero button{
-    margin-bottom: 4em;
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+    z-index: 20;
+}
+figure{
+    width: 100%;
+    margin: auto;
 }
 main h2{
     color: #FF0022;

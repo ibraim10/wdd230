@@ -61,6 +61,18 @@ COLORS
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    section.hero button{
+        bottom: 15%;
+        right: 35%;
+    }
+    section.hero h2{
+        bottom: 27%;
+        right: -3%;
+        
+    }
+    .t{
+        padding-right: 0.5em;
+    }
     /*---------footer---------*/
     footer{
         display: grid;
@@ -78,12 +90,15 @@ COLORS
         text-align: center;
         padding-bottom: 1em;
     }
-    footer img{
+    footer picture{
         grid-column: 1/2;
         margin: auto;
-        width: 40%;
+        width: 100%;
         align-self: center;
         justify-self: center;
+    }
+    footer img{
+        width: 50%;
     }
     footer .infoContact{
         grid-column: 2/3;
