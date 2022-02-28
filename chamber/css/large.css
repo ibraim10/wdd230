@@ -27,6 +27,10 @@
         grid-row: 3/4;
         grid-column: 1/6;
     }
+    .visits{
+        grid-row: 4/5;
+        grid-column: 1/6;
+    }
     /*---------------main----------------*/
     main{
         grid-template-columns: repeat(4, 1fr);

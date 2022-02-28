@@ -73,6 +73,7 @@ COLORS
     .t{
         padding-right: 0.5em;
     }
+
     /*-------MAIN_GALLERY----------*/
     main.content-gallery{
         grid-template-columns: 1fr;
