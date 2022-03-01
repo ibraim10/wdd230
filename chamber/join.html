@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet">
+    <!--Css Styles-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <!--JavaScript-->
+    <script defer src="js/script.js"></script>
+    <script defer src="js/lazy.js"></script>
+    <script defer src="js/localStorage.js"></script>
+    <!--Favico-->
+    <link rel="shortcut icon" href="img/logo/logoXochiChamber.JPG">
+    <!--social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="infoHeader">
+                <img src="img/logo/logoXochiChamber1.webp" alt="Logo of Xochi Camber">
+                <h1>Xochi Chamber</h1>
+                <div><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-linkedin"></a>  </div>
+            </div>
+            <nav>
+                <button id="hamburguerBtn"><span>&#9776;</span><span> X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <p id="date"></p>
+            <p class="banner"></p>
+            <p class="visits">Last visit <span class="lastVisit"></span> day(s) ago.</p>
+        </header>
+        <!--*****Main*****-->
+        <main class="content-join">
+            <form method="get" action="thankyou.html">
+                <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                <label class="top" for="ln">Last Name* <input type="text" name="lname" id="ln" required></label>
+                <label class="top" >Title <input type="text" name="title"></label>
+                
+            </form>
+        </main>
+        <!--*****Footer*****-->
+        <footer>
+            <section>
+                <picture>
+                        <source srcset="img/logo/logoXochiChamber-copia2.JPG" media="(min-width: 40rem) and (max-width: 64rem)">
+                            <source srcset="img/logo/logoXochiChamber-copia3.JPG" media="(min-width: 64rem)">
+                    <img src="img/logo/logoXochiChamber-copia3.JPG"  alt="Logo of Xochi Camber">
+                </picture>
+                <div class="infoContact">
+                    <h4>Xochi Chamber</h4>
+                    <p>
+                        5 cañaverales, virreyes 1010<br>
+                        xochichamber.com<br>
+                        +52 55 3615 4458<br>
+                        <a href="">Link map</a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <p>&copy; <span id="year"></span> Xochi Chamber | Ibraim Calvo | WDD 230 Project</p>
+                <p>Last Update: <span id="lastUpdate"></span> </p>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
