@@ -354,3 +354,14 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: rgb(16, 238, 16) solid 5px;
 }
+/*---------THANKS PAGE--------*/
+.content-thanks{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #41EAD4;
+}
+.content-thanks h2{
+    color: #41EAD4;
+    
+}

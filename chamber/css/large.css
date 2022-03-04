@@ -94,4 +94,8 @@
     footer section:nth-child(2){
         border-top: 8px double rgba(255, 0, 34, .3);
     }
+/*--------------THANKS PAGE------------*/
+    .content-thanks{
+        font-size: 1.5rem;
+    }
 }
