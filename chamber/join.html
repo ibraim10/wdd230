@@ -48,10 +48,25 @@
         <!--*****Main*****-->
         <main class="content-join">
             <form method="get" action="thankyou.html">
-                <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
-                <label class="top" for="ln">Last Name* <input type="text" name="lname" id="ln" required></label>
-                <label class="top" >Title <input type="text" name="title"></label>
-                
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                    <label class="top" for="ln">Last Name* <input type="text" name="lname" id="ln" required></label>
+                    <label class="top" >Title<input type="text" name="title"></label>
+                    <label class="top" >Email<input type="email" name="email" placeholder="Jonh@gmail.com"></label>
+                    <label class="top" >Cell Phone*<input type="tel" name="tel" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top" >Business name*<input type="text" name="business" required></label>
+                    <div>Membership level</div>
+                    <label class="sbs"><input type="radio" name="membership" value="NP">NP Membership is for non profit organizations and there is no fee.</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Bronze">Bronze Membership.</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Silver">Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Gold">Gold Membership</label>
+                    <textarea name="textarea" cols="30" rows="10">Business description...</textarea>
+                    <input type="submit" value="Join the chamber" class="submitBtn">
+                </fieldset>
             </form>
         </main>
         <!--*****Footer*****-->
