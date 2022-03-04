@@ -31,3 +31,15 @@ if (day >= 1 && day <= 3){
 }
 
 document.querySelector('.banner').textContent = message;
+//HIDDEN MESSAGE
+let month = currentTime.getMonth();
+
+let date = `${month}/${day}/${year}`;
+let time = `${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}`;
+
+let dateTime = `${date} ${time}`;
+
+const hidden_date = document.querySelector("[name='date']");
+if(hidden_date) {
+    hidden_date.value = dateTime;
+}

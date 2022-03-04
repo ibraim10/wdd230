@@ -316,22 +316,38 @@ form label.top input{
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
+    
 }
 form label.sbs{
     display: block;
     padding: .75rem 0;
+    margin-left: 2%;
     color: #FDFFFC;
+    text-align:start;
+}
+form label.sbs input{
+    margin-right: 2%;
 }
 form input.submitBtn{
-    border: none;
     background-color: #41EAD4;
-    color: white;
+    color: #011627;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    padding: .75rem 1rem;
+    margin: -.5rem 0 .5rem;
     width: 96%;
     max-width: 20rem;
+    
 }
+form input.submitBtn:hover{
+    background-color: #40c2b1;
+    transition: .1s;
+}
+.submitBtn:active {
+    background-color: #41EAD4;
+    box-shadow: 0 5px #FF0022;
+    transform: translateY(4px);
+}
+
 form label.top input:required{
     border-left: red solid 5px;
 }
