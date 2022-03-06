@@ -1,0 +1,32 @@
+{
+    "companies": [
+        {
+            "name":     "Google",
+            "address":  "Mountain View, California, United States",
+            "tel":      800900549,
+            "website":  "https://google.com.mx",
+            "image":    "img/companies/google.png"
+        },
+        {
+            "name":     "Microsoft",
+            "address":  "Redmond, Washington, United States",
+            "tel":      525547772929,
+            "website":  "https://www.microsoft.com",
+            "image":    "img/companies/microsoft.png"
+        },
+        {
+            "name":     "Meta",
+            "address":  "1 Hacker Way Menlo Park, CA 94025 United States",
+            "tel":      null,
+            "website":  "https://about.facebook.com/ltam/meta/",
+            "image":    "img/companies/meta.png"
+        },
+        {
+            "name":     "Tesla",
+            "address":  "Fremont, California, United States",
+            "tel":      null,
+            "website":  "https://www.tesla.com",
+            "image":    "img/companies/tesla.png"
+        }
+    ]
+}
