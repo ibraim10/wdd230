@@ -37,7 +37,7 @@
                 <ul id="primaryNav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li class="active"><a href="join.html">Join</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -48,6 +48,37 @@
         </header>
         <!--*****Main*****-->
         <main class="content-join">
+                <h1>Membership Package</h1>
+                <div class="membership">
+                    <section>
+                        <h3>NP Membership</h3>
+                        <p>
+                            The Non-profit Membership is for non profit organizations and there is no fee. Be part of our community.<br>
+                            You will be able to access the weekly meetings, you will have the most recent news and training by our team.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Bronze Membership.</h3>
+                        <p>
+                            You will be able to access the weekly meetings, you will have the most recent news and training by our team<br>
+                        </p>
+                        <p class="pay">$100</p>
+                    </section>
+                    <section>
+                        <h3>Silver Membership</h3>
+                        <p>
+                            You will have everything that the bronze membership gives, plus a professional will monitor your social networks and your website weekly to improve them and you will have discounts on advertising for your business<br>
+                        </p>
+                        <p class="pay">$450</p>
+                    </section>
+                    <section>
+                        <h3>Gold Membership</h3>
+                        <p>
+                            You will have everything that the bronze and silver membership gives, plus a guaranteed growth in your business monthly, along with free advertising.<br>
+                        </p>
+                        <p class="pay">$995</p>
+                    </section>
+                </div>
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -62,10 +93,10 @@
                     <label class="top" >Business name*<input type="text" name="business" required></label>
                     <div>Membership level</div>
                     <label class="sbs"><input type="radio" name="membership" value="NP">NP Membership is for non profit organizations and there is no fee.</label>
-                    <label class="sbs"><input type="radio" name="membership" value="Bronze">Bronze Membership.</label>
-                    <label class="sbs"><input type="radio" name="membership" value="Silver">Silver Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="Gold">Gold Membership</label>
-                    <textarea name="textarea" cols="30" rows="10">Business description...</textarea>
+                    <label class="sbs"><input type="radio" name="membership" value="Bronze">Bronze Membership | $100</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Silver">Silver Membership | $450</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Gold">Gold Membership | $995</label>
+                    <label class="sbs"><textarea name="textarea" cols="30" rows="10">Business description...</textarea></label>
                     <input type="hidden" name="date">
                 </fieldset>
                 <input type="submit" value="Join the chamber" class="submitBtn">

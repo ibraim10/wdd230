@@ -98,4 +98,12 @@
     .content-thanks{
         font-size: 1.5rem;
     }
+    /*-------------membership---------*/
+    div.membership{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2em;
+        width: 100%;
+        margin: 0 1% 0 0;
+    }
 }

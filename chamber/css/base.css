@@ -289,10 +289,10 @@ main.content-join{
     grid-template-columns: 1fr;
 }
 form fieldset{
-    margin: 2rem 0;
+    margin: 2rem 0.5rem;
     border: 1px solid #41EAD4;
     border-radius: 10px;
-    padding: .5rem 2%;
+    padding: .7rem 3%;
 }
 form legend{
     color: #FF0022;
@@ -303,17 +303,17 @@ form label.top, form div{
     display: block;
     padding-top: 1rem;
     color: #FF0022;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 form label.top input{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: 1px solid #FDFFFC;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: .75rem;
     color: #FDFFFC;
-    width: 100%;
+    width: 70%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
     
@@ -333,7 +333,7 @@ form input.submitBtn{
     color: #011627;
     border-radius: 1rem;
     padding: .75rem 1rem;
-    margin: -.5rem 0 .5rem;
+    margin: -.5rem 0 .5rem 0.9rem;
     width: 96%;
     max-width: 20rem;
     
@@ -364,4 +364,37 @@ form label.top input:required:valid{
 .content-thanks h2{
     color: #41EAD4;
     
+}
+/*---------memberships--------*/
+.content-join h1{
+    text-align: center;
+    margin: auto;
+}
+.membership h3{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .2em;
+    margin: 2%;
+    background-color: #41EAD4;
+    color: #011627;
+    border-radius: 20px;
+}
+div.membership{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    margin: 0 3% 0 0;
+    width: 80%;
+}
+.membership section{
+    margin: auto;
+    padding: 0.6em;
+}
+
+.pay{
+    padding: .2em;
+    margin: 2%;
+    color: #41EAD4;
+    font-size: 1.2rem;
+    align-self: end;
 }

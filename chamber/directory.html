@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/large.css">
     <!--JavaScript-->
     <script defer src="js/script.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <script defer src="js/localStorage.js"></script>
     <!--Favico-->
     <link rel="shortcut icon" href="img/logo/logoXochiChamber.JPG">
     <!--social media-->
@@ -32,26 +34,27 @@
             <nav>
                 <button id="hamburguerBtn"><span>&#9776;</span><span> X</span></button>
                 <ul id="primaryNav">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
             <p id="date"></p>
+            <p class="banner"></p>
+            <p class="visits">Last visit <span class="lastVisit"></span> day(s) ago.</p>
+            
         </header>
-        <!--*****Main*****-->
-        <main class="content-thanks">
-            <h2 class="thanks">Thanks for joining to the chamber :)</h2>
+        <main>
+            
         </main>
-        <!--*****Footer*****-->
         <footer>
             <section>
                 <picture>
                         <source srcset="img/logo/logoXochiChamber-copia2.JPG" media="(min-width: 40rem) and (max-width: 64rem)">
                             <source srcset="img/logo/logoXochiChamber-copia3.JPG" media="(min-width: 64rem)">
-                    <img src="img/logo/logoXochiChamber-copia3.JPG"  alt="Logo of Xochi Camber">
+                    <img src="img/logo/logoXochiChamber-copia3.JPG" alt="Logo of Xochi Camber">
                 </picture>
                 <div class="infoContact">
                     <h4>Xochi Chamber</h4>

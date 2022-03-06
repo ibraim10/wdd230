@@ -123,4 +123,21 @@ COLORS
     footer section:nth-child(2){
         border: none;
     }
+    /*--------------FORM------------*/
+    form label.top input{
+        font-size: 1rem;
+        width: 100%;   
+        max-width: 22rem;
+    }
+    form label.top, form div{
+        font-size: 1.1rem;
+    }
+    /*-------------membership---------*/
+    div.membership{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        width: 100%;
+        
+    }
 }
