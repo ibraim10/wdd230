@@ -17,16 +17,72 @@
         {
             "name":     "Meta",
             "address":  "1 Hacker Way Menlo Park, CA 94025 United States",
-            "tel":      null,
+            "tel":      555654455455,
             "website":  "https://about.facebook.com/ltam/meta/",
             "image":    "img/companies/meta.png"
         },
         {
             "name":     "Tesla",
             "address":  "Fremont, California, United States",
-            "tel":      null,
+            "tel":      566948312125,
             "website":  "https://www.tesla.com",
             "image":    "img/companies/tesla.png"
+        },
+        {
+            "name":     "Platzi",
+            "address":  "Sundown Lane, Bastrop, TX",
+            "tel":      5123328932,
+            "website":  "https://platzi.com/",
+            "image":    "img/companies/platzi.png"
+        },
+        {
+            "name":     "Amazon",
+            "address":  "Ray Court, Clinton, NC",
+            "tel":      9102603676,
+            "website":  "https://amazon.com/",
+            "image":    "img/companies/amazon.png"
+        },
+        {
+            "name":     "Youtube",
+            "address":  "Duff Avenue, Winooski, VT",
+            "tel":      8024326018,
+            "website":  "https://youtube.com/",
+            "image":    "img/companies/youtube.png"
+        },
+        {
+            "name":     "Apple",
+            "address":  "Trainer Avenue, Rock Island, IL",
+            "tel":      3095538079,
+            "website":  "https://apple.com/",
+            "image":    "img/companies/apple.png"
+        },
+        {
+            "name":     "Nasa",
+            "address":  "Pursglove Court, Dayton, OH",
+            "tel":      9373313943,
+            "website":  "https://nasa.com/",
+            "image":    "img/companies/nasa.png"
+        },
+        {
+            "name":     "Netflix",
+            "address":  "Rosewood Court, Luverne, MN",
+            "tel":      5072830788,
+            "website":  "https://netflix.com/",
+            "image":    "img/companies/netflix.png"
+        },
+        {
+            "name":     "Fifa",
+            "address":  "Cheshire Road, Hartford, CT",
+            "tel":      2033505881,
+            "website":  "https://fifa.com/",
+            "image":    "img/companies/fifa.png"
+        },
+        {
+            "name":     "Bitcoin",
+            "address":  "Romrog Way, Grand Island, NE",
+            "tel":      3082166726,
+            "website":  "https://bitcoin.com/",
+            "image":    "img/companies/bitcoin.png"
         }
     ]
 }
