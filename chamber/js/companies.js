@@ -1,4 +1,4 @@
-const requestURL = '/chamber/companies.json';
+const requestURL = 'companies.json';
 const cards = document.querySelector('.cards')
 
 fetch(requestURL)
