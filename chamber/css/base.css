@@ -450,4 +450,9 @@ main.directory-content section img{
 }
 .container-directory{
     margin: 2.3em;
+    
+}
+.container-directory table{
+    grid-column: 1/4;
+    text-align: center;
 }
