@@ -54,14 +54,6 @@ document.getElementById('companies-list').addEventListener('click', function () 
     document.getElementById('companies-grid').classList.remove('active');
     cards.classList.add('companies-list')
     table = `<table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-                <th>Telephone</th>
-                <th>website</th>
-            </tr>
-        </thead>
         <tbody>
         </tbody>
     </table>`;
