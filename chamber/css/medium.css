@@ -140,4 +140,20 @@ COLORS
         width: 100%;
         
     }
+    /*-------------------DIRECTORY-------------*/
+
+main.directory-content div.buttons button{
+    width: 47px;
+
+}
+main.directory-content div.cards{
+    grid-template-columns: repeat(2, 1fr);
+}
+main.directory-content section img{
+    width: 40%;
+}
+.container-directory{
+    
+    margin-bottom: 3.5em;
+}
 }

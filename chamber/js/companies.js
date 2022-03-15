@@ -40,57 +40,57 @@ function displayCompanies(companies){
 
     //add/append the section(card) with the h2 element
     card.appendChild(h2);
+    card.appendChild(logo);
     card.appendChild(address);
     card.appendChild(tel);
-    card.appendChild(logo);
     card.appendChild(website);
     //add/append the existing HTML div with the cards with the section(card)
     cards.appendChild(card);
 }
 //Add an event listener
-document.getElementById('companies-list').addEventListener('click', function () {
-    document.getElementById('companies-list').classList.add('active');
-    document.getElementById('companies-grid').classList.remove('active');
-    cards.classList.add('companies-list')
-    table = `<table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-                <th>Telephone</th>
-                <th>website</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>`;
+// document.getElementById('companies-list').addEventListener('click', function () {
+//     document.getElementById('companies-list').classList.add('active');
+//     document.getElementById('companies-grid').classList.remove('active');
+//     cards.classList.add('companies-list')
+//     table = `<table>
+//         <thead>
+//             <tr>
+//                 <th>Name</th>
+//                 <th>Address</th>
+//                 <th>Telephone</th>
+//                 <th>website</th>
+//             </tr>
+//         </thead>
+//         <tbody>
+//         </tbody>
+//     </table>`;
 
-    cards.innerHTML = table;
-    dataRequest.forEach((companies) => {
-        let name = document.createElement('th');
-        let address = document.createElement('th');
-        let tel = document.createElement('th');
-        let website = document.createElement('th');
-        let tr = document.createElement('tr');
+//     cards.innerHTML = table;
+//     requestURL.forEach((companies) => {
+//         let name = document.createElement('th');
+//         let address = document.createElement('th');
+//         let tel = document.createElement('th');
+//         let website = document.createElement('th');
+//         let tr = document.createElement('tr');
 
-        name.textContent = companies.name;
-        address.textContent = companies.address;
-        tel.textContent = companies.tel;
-        website.textContent = companies.website;
+//         name.textContent = companies.name;
+//         address.textContent = companies.address;
+//         tel.textContent = companies.tel;
+//         website.textContent = companies.website;
 
-        tr.appendChild(name);
-        tr.appendChild(address);
-        tr.appendChild(tel);
-        tr.appendChild(website);
+//         tr.appendChild(name);
+//         tr.appendChild(address);
+//         tr.appendChild(tel);
+//         tr.appendChild(website);
 
-    document.querySelector('table > tbody').appendChild(tr);
-    });
-});
-let dataRequest;
-document.getElementById('companies-grid').addEventListener('click', function(){
-    document.getElementById('companies-grid').classList.add('active');
-    document.getElementById('companies-list').classList.remove('active');
-    cards.classList.remove('companies-list');
-    cards.innerHTML="";
-    dataRequest.forEach(displayCompanies);
-})
+//     document.querySelector('table > tbody').appendChild(tr);
+//     });
+// });
+
+// document.getElementById('companies-grid').addEventListener('click', function(){
+//     document.getElementById('companies-grid').classList.add('active');
+//     document.getElementById('companies-list').classList.remove('active');
+//     cards.classList.remove('companies-list');
+//     cards.innerHTML="";
+//     requestURL.forEach(displayCompanies);
+// })
