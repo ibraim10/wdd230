@@ -153,7 +153,23 @@ main.directory-content section img{
     width: 40%;
 }
 .container-directory{
-    
     margin-bottom: 3.5em;
 }
+.cards table{
+    display: grid;
+    grid-column: 1/4;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
+    -webkit-box-shadow: 0px 13px 20px -2px rgba(65,234,212,0.84);
+    -moz-box-shadow: 0px 11px 13px -2px rgba(65,234,212,0.84);
+}
+.container-directory tr{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+    justify-content: center;
+    align-content: center;
+}
+
 }

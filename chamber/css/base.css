@@ -449,12 +449,15 @@ main.directory-content section img{
     
 }
 .container-directory{
-    margin: 2.3em;
+    margin: 2em;
     
 }
-.container-directory table{
+.cards table{
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-column: 1/4;
     text-align: left;
+    margin: auto;
+    width: 50vw;
     box-shadow: 0px 9px 13px -6px rgba(65,234,212,0.84);
     -webkit-box-shadow: 0px 13px 20px -2px rgba(65,234,212,0.84);
     -moz-box-shadow: 0px 11px 13px -2px rgba(65,234,212,0.84);
@@ -467,4 +470,9 @@ main.directory-content section img{
 }
 .container-directory th{
     padding: 0.5em;
+}
+
+.container-directory tr{
+    display: flex;
+    flex-direction: column;    
 }
