@@ -171,5 +171,13 @@ main.directory-content section img{
     justify-content: center;
     align-content: center;
 }
+/*----------CONTACT----------------*/
+
+.contact{
+    width: 70%;
+}
+.contact form textarea{
+    width: 50vw;
+}
 
 }

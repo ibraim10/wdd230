@@ -115,4 +115,29 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    /*----------CONTACT----------------*/
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 2em;
+    }
+
+    .contact{
+        width: 95%;
+    }
+    .contact form textarea{
+        width: 90%;
+    }
+    .contact form{
+        grid-column: 1/2;
+    }
+    .contact section{
+        grid-column: 2/3;
+        margin: 0;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+        height: 90%;
+    }
 }

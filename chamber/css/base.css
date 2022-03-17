@@ -476,3 +476,25 @@ main.directory-content section img{
     display: flex;
     flex-direction: column;    
 }
+/*----------CONTACT----------------*/
+.contact-content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact{
+    text-align: start;
+    width: 90%;
+}
+.contact form textarea{
+    width: 90%;
+}
+.contact section{
+    margin: auto;
+    margin-bottom: 1.3em;
+    padding-bottom: 1.5em;
+}
+.contact form label.sbs{
+    margin: 0;
+}

@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/large.css">
     <!--JavaScript-->
     <script defer src="js/script.js"></script>
+    <script defer src="js/companies.js"></script>
+    
     <!--Favico-->
     <link rel="shortcut icon" href="img/logo/logoXochiChamber.JPG">
     <!--social media-->
@@ -36,22 +38,45 @@
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <p id="date"></p>
+            <p class="banner"></p>            
         </header>
-        <!--*****Main*****-->
-        <main class="content-thanks">
-            <h2 class="thanks">Thanks for joining to the chamber :)</h2>
+        <main class="contact-content">
+            <div class="contact">
+                <form method="get" action="thanksQuestion.html">
+                    <fieldset>
+                        <legend>CONTACT FORM</legend>
+                        <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                        <label class="top" >Email*<input type="email" name="email" placeholder="Jonh@gmail.com" required></label>
+                        <label class="sbs"><textarea name="textarea" cols="30" rows="10" required>Question/Concern*</textarea></label>
+                    </fieldset>
+                    <input type="submit" value="send my Question/Concern" class="submitBtn">
+                </form>
+                <section>
+                    <h2>Contact us</h2>
+                    <h3>Address</h3>
+                    <p>
+                        5 cañaverales, virreyes 1010 <br>
+                        xochichamber.com <br>
+                        Link map
+                    </p>
+                    <h3>Phone</h3>
+                    <p>+52 55 3615 4458</p>
+                    <h3>Email</h3>
+                    <p>contact@xochichamber.com</p>
+                    <div><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-linkedin"></a>  </div>
+                </section>
+            </div>
         </main>
-        <!--*****Footer*****-->
         <footer>
             <section>
                 <picture>
                         <source srcset="img/logo/logoXochiChamber-copia2.JPG" media="(min-width: 40rem) and (max-width: 64rem)">
                             <source srcset="img/logo/logoXochiChamber-copia3.JPG" media="(min-width: 64rem)">
-                    <img src="img/logo/logoXochiChamber-copia3.JPG"  alt="Logo of Xochi Camber">
+                    <img src="img/logo/logoXochiChamber-copia3.JPG" alt="Logo of Xochi Camber">
                 </picture>
                 <div class="infoContact">
                     <h4>Xochi Chamber</h4>
