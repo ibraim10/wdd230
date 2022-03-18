@@ -245,16 +245,21 @@ figure{
 main h2{
     color: #FF0022;
     padding: 0.2em;
+    
 }
 section p{
     padding: 0 1em;
 }
 main button{
-    background: #41EAD4;
+    background: #41ead4e0;
     border: #011627;
     padding: 1em;
     border-radius: 1em;
     box-shadow: 4px 4px 6px #011627;
+    color: #FDFFFC;
+}
+main button a{
+    text-decoration: none;
     color: #FDFFFC;
 }
 section.spot div{
@@ -269,8 +274,8 @@ section.spot img{
     padding: 1em;
 }
 main button:hover{
-    background-color: #FF0022;
-    transition: 0.2s;
+    background-color: #ff0022d7;
+    transition: 0.1s;
 }
 /*--------------MAIN_GALLERY-------------*/
 main.content-gallery{
@@ -416,6 +421,7 @@ div.membership{
 /*-------------------DIRECTORY-------------*/
 main.directory-content{
     display: block;
+    margin: 1em;
 }
 main.directory-content div.buttons{
     display:flex;
@@ -436,7 +442,7 @@ main.directory-content div.buttons button:hover{
 }
 main.directory-content div.cards{
     display: grid;
-    grid-template-columns: (1fr);
+    grid-template-columns: 1fr;
     margin: auto;
     grid-gap: 2em;
 }
@@ -445,7 +451,7 @@ main.directory-content section{
     display: flex;
     flex-direction: column;
     min-height: 290px;
-    height: max-content(300px);
+    max-height: 400px;
     padding-bottom: 1em;
     transition: .5s;
 }

@@ -56,7 +56,7 @@
                     <img src="img/wdd230/wdd230-org3.jpg" alt="test">
                 </picture>
                 <h2>Welcome to xochimilco</h2>
-                <button>Join the chamber</button>
+                <button onclick="location.href= 'join.html'">Join the chamber</button>
             </section>
             <section class="news">
                 <h2>News</h2>
@@ -67,16 +67,18 @@
                 </p>
             </section>
             <section class="join">
-                <button>Join us!</button>   
+                <h2>Do you want to join?</h2>
                 <p>
-                    Discover how to join the chamber of commerce and how it will benefit your organization or business! 
+                    Discover how to join the chamber of commerce and how it will benefit your organization or business! <br>
+                    And know the memberships we have
                 </p>    
+                <button onclick="location.href= 'join.html'">Join us!</button>   
             </section>
             <section class="weather">
                 <h2>weather</h2>
                 <div>
                     <!-- <img src="img/clima.webp" alt="weather"> -->
-                    <figure><img src="" alt="" id="weathericon" /><figcaption></figcaption></figure>
+                    <figure><img src="js" alt="weather" id="weathericon" /><figcaption></figcaption></figure>
                     <p class="t"><span id="current-temp"></span>&deg;F</p>
                     <p>Wind speed:  <span id="s"></span>mph</p>
                     <p>Wind Chill: <span id="w"></span></p>
