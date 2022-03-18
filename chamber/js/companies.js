@@ -1,6 +1,8 @@
 const requestURL = 'data.json';
 const cards = document.querySelector('.cards')
 let companies;
+let spotlightList
+let random;
 
 fetch(requestURL)
     .then(function(response){
@@ -10,6 +12,10 @@ fetch(requestURL)
         console.table(jsonObject)
         companies = jsonObject['companies'];
         companies.forEach(displayCompanies);
+        spotlightList = companies.filter(status => status.status === "Gold" || status.status === "Silver" );
+        console.log(spotlightList);
+        random = randomSpotlight(spotlightList); 
+
     });
 
 
@@ -87,3 +93,15 @@ document.getElementById('companies-grid').addEventListener('click', function(){
     cards.innerHTML="";
     companies.forEach(displayCompanies);
 })
+
+//SPOTLIGHT
+
+function randomSpotlight(spotlightList){
+    let randomSpot = spotlightList[Math.floor(Math.random() * spotlightList.length)];
+
+    console.log(randomSpot);
+}
+
+function displaySpotlight(status){
+    
+}

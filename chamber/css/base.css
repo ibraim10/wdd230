@@ -143,6 +143,9 @@ main{
     justify-items: center;
     margin: 1em;
 }
+main.main-index{
+    margin: 1.2em;
+}
 main section{
     width: 100%;
     text-align: center;
@@ -156,8 +159,13 @@ main section.weather div{
     grid-template-columns: 1fr 1fr;
     font-size: 1.2em;
 }
+main section.weather figure{
+    grid-column: 1/3;
+    display: flex;
+    width: 80%;
+}
 main section.weather img{
-    width: 70%;
+    width: 50%;
     align-self: center;
     justify-self: end;
 }
@@ -165,12 +173,16 @@ main section.weather{
     margin: auto; 
     padding: 0;
 }
+main section.weather figcaption{
+    color: #007bb5;
+    align-self: center;
+}
 .t{
-    font-size: 200%;
-    justify-self: start;
+    grid-column: 1/3;
+    font-size: 180%;
+    justify-self: center;
     padding: 0;
-    padding-left: 0.4em;
-    margin-bottom: 0;
+    margin: 0;
 }
 main section.weather h2{
     margin-bottom: 0;
@@ -248,10 +260,12 @@ main button{
 section.spot div{
     padding: 1em;
     margin: 3em;
-    border: 1px solid #41EAD4;
+    border: 6px outset #DAA520;
+    background-color: #FDFFFC;
+    color: #011627;
 }
 section.spot img{
-    width: 20%;
+    width: 30%;
     padding: 1em;
 }
 main button:hover{

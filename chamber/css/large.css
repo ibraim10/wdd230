@@ -66,9 +66,11 @@
         padding: 0;
         margin: auto;
         align-items: center;
+        
     }
     section.spot div{
         margin: 1em 0.6em;
+        
     }
     section.hero button{
         bottom: 15%;
