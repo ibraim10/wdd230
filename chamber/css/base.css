@@ -141,7 +141,7 @@ main{
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin: 1em;
+    margin: 0em;
 }
 main.main-index{
     margin: 1.2em;
@@ -261,7 +261,7 @@ section.spot div{
     padding: 1em;
     margin: 3em;
     border: 6px outset #DAA520;
-    background-color: #FDFFFC;
+    background-color: #fdfffcf1;
     color: #011627;
 }
 section.spot img{
@@ -301,6 +301,7 @@ main.content-gallery{
 main.content-join{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 1em;
 }
 form fieldset{
     margin: 2rem 0.5rem;
