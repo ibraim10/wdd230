@@ -162,7 +162,9 @@ main section.weather div{
 main section.weather figure{
     grid-column: 1/3;
     display: flex;
-    width: 80%;
+    width: 70%;
+    height: 3em;
+    padding-top: 0.2em;
 }
 main section.weather img{
     width: 50%;
@@ -174,10 +176,13 @@ main section.weather{
     padding: 0;
 }
 main section.weather figcaption{
-    color: #007bb5;
+    color: #4dc6ff;
     align-self: center;
 }
-.t{
+section.weather p{
+    margin-top: 0.2em;
+}
+p.t{
     grid-column: 1/3;
     font-size: 180%;
     justify-self: center;
@@ -206,7 +211,7 @@ h4{
 footer img{
     width: 20%;
 }
-footer section:nth-child(2){
+footer div.info-class{
     border-top: 1.4px solid #FF0022;
 }
 /*------content-----*/
@@ -217,28 +222,35 @@ footer section:nth-child(2){
 img{
     width: 100%;
 }
+section.hero img{
+    height: 100%;
+}
 section.hero{
     display: inline-block;
     position: relative;
+    
 }
 section.hero h2{
     position: absolute;
     color: #FDFFFC;
-    text-shadow: 4px 4px 6px #011627;
-    font-size: 2em;
-    bottom: 32%;
-    left: -5%;
+    text-shadow: 5px 2px 2px #011627;
+    font-size: 1.4em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 15;
     margin: 0;
-    padding-left: 1em;
+
 }
 section.hero button{
     position: absolute;
-    bottom: 15%;
-    right: 25%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
     z-index: 20;
 }
-figure{
+figure {
     width: 100%;
     margin: auto;
 }
@@ -266,14 +278,21 @@ main button a{
     color: #FDFFFC;
 }
 section.spot div{
-    padding: 1em;
-    margin: 3em;
-    border: 4px outset #DAA520;
-    box-shadow: 0px 9px 10px -6px rgba(218, 165, 32, 0.84);
-    -webkit-box-shadow: 0px 10px 10px -2px rgba(218, 165, 32, 0.84);
-    -moz-box-shadow: 0px 11px 8px -2px rgba(218, 165, 32, 0.84);
-    background-color: #fdfffcf1;
+    padding-bottom: 1em;
+    margin: 1.5em;
+    border: 6px outset #DAA520;
+    box-shadow: 0px 9px 10px -6px rgba(167, 127, 27, 0.84);
+    -webkit-box-shadow: 0px 10px 10px -2px rgba(167, 127, 27, 0.84);
+    -moz-box-shadow: 0px 11px 8px -2px rgba(167, 127, 27, 0.84);
+    background-color: #ffdb80;
     color: #011627;
+}
+section.spot div:nth-child(3){
+    border: 6px outset #c9c7d4;
+    box-shadow: 0px 9px 10px -6px rgba(180, 179, 190, 0.84);
+    -webkit-box-shadow: 0px 10px 10px -2px rgba(180, 179, 190, 0.84);
+    -moz-box-shadow: 0px 11px 8px -2px rgba(180, 179, 190, 0.84);
+    background-color: #c9c7d4;
 }
 section.spot img{
     width: 30%;
@@ -287,6 +306,9 @@ main button:hover{
 main.content-gallery{
     color: #011627;
     padding-bottom: 5%;
+}
+main.content-gallery h1{
+    color: #FDFFFC;
 }
 .gallery{
     width: 65%;
@@ -416,7 +438,9 @@ div.membership{
     margin: auto;
     padding: 0.6em;
 }
-
+main.content-join form textarea{
+    width: 90%;
+}
 .pay{
     padding: .2em;
     margin: 2%;
@@ -428,6 +452,9 @@ div.membership{
 main.directory-content{
     display: block;
     margin: 1em;
+}
+main.directory-content h1{
+    text-align: center;
 }
 main.directory-content div.buttons{
     display:flex;
@@ -509,6 +536,9 @@ main.directory-content section img{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.contact-content h1{
+    margin: 0;
 }
 .contact{
     text-align: start;

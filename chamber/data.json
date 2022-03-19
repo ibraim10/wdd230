@@ -70,7 +70,7 @@
             "tel":      9373313943,
             "website":  "https://nasa.com/",
             "image":    "img/companies/nasa.webp",
-            "status":   "Bronze"
+            "status":   "Silver"
         },
         {
             "name":     "Netflix",
@@ -94,7 +94,7 @@
             "tel":      3082166726,
             "website":  "https://bitcoin.com/",
             "image":    "img/companies/bitcoin.webp",
-            "status":   "NP"
+            "status":   "Gold"
         }
     ]
 }

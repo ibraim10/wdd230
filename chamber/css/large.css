@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem){
+@media only screen and (min-width: 75rem){
 /*---------------header---------*/
     header{
         display: grid;
@@ -61,7 +61,8 @@
         grid-row: 1/4;
     }
     section.spot{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         grid-template-columns: 1fr;
         padding: 0;
         margin: auto;
@@ -72,13 +73,17 @@
         margin: 1em 0.6em;
         
     }
-    section.hero button{
-        bottom: 15%;
-        right: 35%;
-    }
     section.hero h2{
-        bottom: 25%;
-        right: -10%;   
+        font-size: 2em;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+    section.hero button{
+        width: 35%;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, 75%);
     }
     /*-------MAIN_GALLERY----------*/
     main.content-gallery{
@@ -93,7 +98,7 @@
         padding: 0;
         width: 30%;
     }
-    footer section:nth-child(2){
+    footer div.info-class{
         border-top: 8px double rgba(255, 0, 34, .3);
     }
 /*--------------THANKS PAGE------------*/

@@ -94,14 +94,3 @@ document.getElementById('companies-grid').addEventListener('click', function(){
     companies.forEach(displayCompanies);
 })
 
-//SPOTLIGHT
-
-function randomSpotlight(spotlightList){
-    let randomSpot = spotlightList[Math.floor(Math.random() * spotlightList.length)];
-
-    console.log(randomSpot);
-}
-
-function displaySpotlight(status){
-    
-}
