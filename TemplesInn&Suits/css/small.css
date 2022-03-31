@@ -1,0 +1,109 @@
+/* CSS HEX 
+--white: #fefffeff;
+--tufts-blue: #3993ddff;
+--mikado-yellow: #fec601ff;
+--xiketic: #020122ff;
+--black: #020202ff; */
+*{
+    background-color: #fefffeff;
+    color: #020202ff;
+}
+/*-----------------HEADER----------------*/
+header div.header div.logoHeader img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 0.3rem;
+}
+div.nav{
+    display: flex;
+    flex-direction:row;
+    padding: 0.3rem 0.8rem 0.2rem 0;
+    background-color: #020122ff;
+}
+div.nav nav{
+    width: 70%;
+    background-color: #020122ff;
+}
+div.nav div.socialMedia{
+    width: 30%;
+    text-align: end;
+    background-color: #020122ff;
+}
+div.nav ul{
+    list-style: none;
+    padding: 0.8em 0 0 0;
+    margin: 0;
+    text-align: center;
+    background-color: #020122ff;
+}
+div.nav ul li a{
+    display: block;
+    padding: 0.5em 0;
+    text-decoration: none;
+    color: #fec601ff;
+    border-top: 1px solid #fec601ff;
+    width: 100%;
+    background-color: #020122ff;
+}
+div.nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;    
+}
+div.nav button span{
+    background-color: #020122ff;
+    color: #fec601ff;
+}
+/*-----------bottom----------*/
+/* div.nav ul li.active {
+    background-color: rgba(65, 234, 212, 0.1);
+    color: #FDFFFC;
+}
+div.nav ul{
+    display: none;
+}
+div.nav ul.open {
+    display: block;
+}
+#hamburguerBtn:hover{
+    color: #FF0022;
+    transition: 0.3s;
+}
+#hamburguerBtn span:nth-child(1){
+    display: block;
+}
+#hamburguerBtn span:nth-child(2){
+    display: none;
+}
+#hamburguerBtn.open span:nth-child(1){
+    display: none;
+}
+#hamburguerBtn.open span:nth-child(2){
+    display: block;
+} */
+/*-----------social media icons----------*/
+.fa {
+    padding: .7em;
+    font-size: 2rem;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: .2em .4em;
+    border-radius: 50%;
+}
+.fa:hover {
+    background-color: #020122ff;
+    transition: 0.2s;
+}
+.fa-facebook {
+    /* background: #3B5998; */
+    background: #fec601ff; 
+    color: white;
+}
+.fa-instagram {  
+    /* background: #007bb5;   */
+    background: #fec601ff;  
+    color: white;  
+}
