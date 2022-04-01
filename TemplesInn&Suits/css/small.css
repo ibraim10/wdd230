@@ -7,6 +7,10 @@
 *{
     background-color: #fefffeff;
     color: #020202ff;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+    color: #020122ff;
 }
 /*-----------------HEADER----------------*/
 header div.header div.logoHeader img{
@@ -14,11 +18,16 @@ header div.header div.logoHeader img{
     margin: auto;
     width: 50%;
     padding-bottom: 0.3rem;
+    background-color: transparent;
+}
+div.logoHeader {
+    background: url(../img/templeHeader.webp);
+    background-size: cover;
 }
 div.nav{
     display: flex;
     flex-direction:row;
-    padding: 0.3rem 0.8rem 0.2rem 0;
+    padding: 0.3rem 0rem 0.2rem 0;
     background-color: #020122ff;
 }
 div.nav nav{
@@ -57,9 +66,8 @@ div.nav button span{
     color: #fec601ff;
 }
 /*-----------bottom----------*/
-/* div.nav ul li.active {
-    background-color: rgba(65, 234, 212, 0.1);
-    color: #FDFFFC;
+div.nav ul li.active a{
+    color: #fefffeff;
 }
 div.nav ul{
     display: none;
@@ -82,7 +90,7 @@ div.nav ul.open {
 }
 #hamburguerBtn.open span:nth-child(2){
     display: block;
-} */
+}
 /*-----------social media icons----------*/
 .fa {
     padding: .7em;
@@ -106,4 +114,129 @@ div.nav ul.open {
     /* background: #007bb5;   */
     background: #fec601ff;  
     color: white;  
+}
+/*------------FOOTER-----------------*/
+footer div.footer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid #020122ff;
+    margin-top: 1em;
+}
+footer div.footer .section-footer2{
+    text-align: start;
+    border-top: 1px solid #020122ff;
+}
+footer div.footer .section-footer3{
+    border-top: 1px solid #020122ff;
+}
+
+.section-footer1 img{
+    width: 60%;
+}
+.section-footer3 img{
+    width: 40%;
+}
+/*---------------MAIN------------------*/
+picture{
+    max-width: 100vw;
+}
+img, source{
+    width: 100%;
+}
+main.index div.call-action picture{
+    display: inline-block;
+    position: relative;
+}
+main.index div.call-action button{
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 20;
+    background: transparent;
+    border: 1.5px solid #fec601ff;
+    padding: 0.5em;
+    border-radius: 1em;
+    box-shadow: 4px 4px 6px #020202ff;
+    color: white;
+    font-weight: bold;
+}
+main.index div.call-action button:hover{
+    background-color: #fec601ff;
+    transition: 0.1s;
+}
+main button a{
+    text-decoration: none;
+}
+/*-------------FOOTER FORM------------*/
+
+form fieldset{
+    margin: 2rem 0.5rem;
+    border: 1px solid #3993ddff;
+    border-radius: 10px;
+    padding: .7rem 3%;
+}
+form legend{
+    color: #020202ff;
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+form label.top{
+    display: block;
+    padding-top: 1rem;
+    color: #020202ff;
+    font-size: 1rem;
+}
+form label.top input{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #3993ddff;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #020202ff;
+    width: 70%;
+    max-width: 20rem;
+    background-color: rgba(190, 190, 190, 0.159);
+    
+}
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    margin-left: 2%;
+    color: #3993ddff;
+    text-align:start;
+}
+form label.sbs input{
+    margin-right: 10%;
+}
+form input.submitBtn{
+    background-color: #3993ddff;
+    color: #fefffeff;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 50%;
+    max-width: 20rem;
+    
+}
+form input.submitBtn:hover{
+    background-color: rgb(49, 131, 198);
+    transition: .1s;
+}
+.submitBtn:active {
+    background-color: #3993ddff;
+    box-shadow: 0 5px #fec601ff;
+    transform: translateY(4px);
+}
+
+form label.top input:required{
+    border-left: red solid 5px;
+}
+form label.top input:required:valid{
+    border-left: rgb(16, 238, 16) solid 5px;
 }

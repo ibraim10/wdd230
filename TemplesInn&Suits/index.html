@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TempleINN&Suites</title>
     <!--Fonts-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <!--Css Styles-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/larger.css">
     <!--JavaScript-->
-    <script refer src="js/menu.js"></script>
+    <script defer src="js/menu.js"></script>
     <!--Favico-->
     <link rel="shortcut icon" href="img/templeINN.webp">
     <!--social media-->
@@ -21,10 +23,11 @@
 </head>
 <body>
     <div class="container">
+        <!--HEADER-->
         <header>
             <div class="header">
                 <div class="logoHeader">
-                    <img src="img/templeINNlogo.webp" alt="Logo of Temple INN $ Suites">
+                    <img src="img/templeINNlogo.webp" alt="Logo of Temple INN & Suites">
                 </div>
                 <div class="nav">
                     <nav>
@@ -40,11 +43,42 @@
                 </div>
             </div>
         </header>
-        <main class="main-index">
-
+        <!--MAIN-->
+        <main class="index">
+            <div class="call-action">
+                <picture>
+                        <source srcset="img/hero1.jpg" media="(min-width: 40rem) and (max-width: 75rem)">
+                            <source srcset="img/hero0.jpg" media="(min-width: 75rem)">
+                    <img src="img/hero2.jpg" alt="test">
+                </picture>
+                <button onclick="location.href= ''">Make a Reservation</button>
+            </div>
         </main>
+        <!--FOOTER-->
         <footer>
-
+            <div class="footer">
+                <section class="section-footer1">
+                    <h3>Contact Information</h3>
+                    <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832851,-77.0978278,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank"><img src="img/adress.webp" alt="map"></a>
+                    <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                </section>
+                <div class="section-footer2">
+                    <form method="get" action="thanksQuestion.html">
+                        <fieldset>
+                            <legend>CONTACT FORM</legend>
+                            <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                            <label class="top" >Email*<input type="email" name="email" placeholder="Jonh@gmail.com" required></label>
+                            <label class="sbs"><textarea name="textarea" cols="30" rows="10" required>Questions*</textarea></label>
+                        </fieldset>
+                        <input type="submit" value="Send my Question" class="submitBtn">
+                    </form>
+                </div>
+                <div class="section-footer3">
+                    <img src="img/templeINNlogo.webp" alt="Logo of Temple INN & Suites">
+                    <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
+                </div>
+                <p>&copy; <span id="year"></span> | Temple INN & Suites</p>
+            </div>
         </footer>
     </div>
 </body>
