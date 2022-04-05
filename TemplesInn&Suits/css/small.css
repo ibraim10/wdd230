@@ -16,14 +16,14 @@ h1, h2, h3{
 header div.header div.logoHeader img{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 30%;
     padding-bottom: 0.3rem;
     background-color: transparent;
 }
-div.logoHeader {
+/* div.logoHeader {
     background: url(../img/templeHeader.webp);
     background-size: cover;
-}
+} */
 div.nav{
     display: flex;
     flex-direction:row;
@@ -120,15 +120,15 @@ footer div.footer{
     display: block;
     margin: auto;
     text-align: center;
-    border-top: 1px solid #020122ff;
+    border-top: 1px solid #3993ddff;
     margin-top: 1em;
 }
 footer div.footer .section-footer2{
     text-align: start;
-    border-top: 1px solid #020122ff;
+    border-top: 1px solid #3993ddff;
 }
 footer div.footer .section-footer3{
-    border-top: 1px solid #020122ff;
+    border-top: 1px solid #3993ddff;
 }
 
 .section-footer1 img{
@@ -144,7 +144,6 @@ picture{
 img, source{
     width: 100%;
 }
-
 main.index div.call-action button{
     position: absolute;
     margin-top: -60px;
@@ -164,6 +163,34 @@ main.index div.call-action button:hover{
 }
 main button a{
     text-decoration: none;
+}
+main .sections{
+    display: grid;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    -webkit-box-shadow: 0px 15px 9px -10px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 15px 9px -10px rgba(0,0,0,0.61);
+    box-shadow: 0px 15px 9px -10px rgba(0,0,0,0.61);
+}
+main section.we-are-section{
+    padding-bottom: 0;
+}
+main .sections h2, h1{
+    margin-bottom: 0;
+}
+main .sections p{
+    padding: 0 1rem;
+}
+main div.weather{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+main .weather-section figcaption{
+    color:#3993ddff;
+}
+main section.weather-section img{
+    width: 30%;
 }
 /*-------------FOOTER FORM------------*/
 
@@ -200,7 +227,8 @@ form label.top input{
 form label.sbs{
     display: block;
     padding: .75rem 0;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-top: 0.6rem;
     color: #3993ddff;
     text-align:start;
 }
@@ -235,3 +263,4 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: rgb(16, 238, 16) solid 5px;
 }
+/*---------------ALERT-------------*/
