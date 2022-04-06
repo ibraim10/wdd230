@@ -18,6 +18,7 @@
     <script defer src="js/menu.js"></script>
     <script defer src="js/weather.js"></script>
     <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/forecast.js"></script>
     <!--Favico-->
     <link rel="shortcut icon" href="img/templeINN.webp">
     <!--social media-->
@@ -53,44 +54,57 @@
                             <source srcset="img/hero0.jpg" media="(min-width: 75rem)">
                     <img src="img/hero2.jpg" alt="test">
                 </picture>
-                <div>
+                <div class="btn">
                     <button onclick="location.href= ''">Make a Reservation</button>
                 </div>
             </div>
             <section class="sections we-are-section">
-                <h1>Temple Inn & Suites</h1>
-                <p>We are a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
+                <div class="content-we">
+                    <h1>Temple Inn & Suites</h1>
+                    <p>We are a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world.</p>
+                </div>
                 <img src="img/houston-temple02.jpg" alt="temple of houston">
             </section>
             <section class="sections contact-section">
-                <h2>Contact us!</h2>
-                <p>Phone number: 552-654-8921 <br>
-                Address: 4800 Montgomery Ln #300, Bethesda, MD 20814.</p>
-                <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832851,-77.0978278,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank"><img src="img/adress.webp" alt="map"></a>
-                <p>Email: Contact@Templeinn.com</p>
-                <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
+                <div>
+                    <h2>Contact us!</h2>
+                    <p>Phone number: 552-654-8921 <br>
+                    Address: 4800 Montgomery Ln #300, Bethesda, MD 20814.</p>
+                </div>
+                <div class="img-contact">
+                    <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832851,-77.0978278,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank"><img src="img/adress.webp" alt="map"></a>
+
+                </div>
+                <div>
+                    <p>Email: Contact@Templeinn.com</p>
+                    <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
+                </div>
             </section>
             <section class="sections temple-section">
-                <h2>Provo City Center Temple</h2>
-                <p>Address:
-                    50 South University Ave
-                    Provo UT 84601
-                    United States <br>
-                    Telephone:
-                    (1) 801-343-2700
-                </p>
+                <div class="cTemple1">
+                    <h2>Provo City Center Temple</h2>
+                    <p>Address:
+                        50 South University Ave
+                        Provo UT 84601
+                        United States <br>
+                        Telephone:
+                        (1) 801-343-2700
+                    </p>
+                </div>
                 <img src="img/Provo-City-Center-Temple01.jpg" alt="Provo City Center Temple">
-                <p>
-                    Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.
-                </p>
-                <p>
-                    Milestones
-                    1 October 2011
-                    Announced
-                    20 March 2016
-                    Dedicated — dedicatory prayer
-                </p>
-                <p><a href="">see more temples..</a></p>
+                <div class="cTemple2">
+                    <p>
+                        Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.
+                    </p>
+                    <p>
+                        Milestones
+                        1 October 2011
+                        Announced
+                        20 March 2016
+                        Dedicated — dedicatory prayer
+                    </p>
+                    <p><a href="">see more temples..</a></p>
+                </div>
             </section>
             <section class="sections weather-section">
                 <h2>weather</h2>
@@ -101,12 +115,34 @@
                     <p>Humidity: <br><span id="h"></span>%</p>
                 </div>
             </section>
+            <section class="sections forecast-section">
+                <h2>2 day temperature forecast</h2>
+                <div class="fore f1">
+                    <h3 class="day-temp">Tomorrow</h3>
+                    <figure class="img-temp"><img src="js" alt="forecast" id="icon1" /><figcaption></figcaption></figure>
+                    <p class="temperature">Temperature<br><span id="temp"></span>&deg;F</p>
+                    <p class="time"><span id="time1"></span></p>
+                </div>
+                <div class="fore f2">
+                    <h3 class="day-temp">Day after tomorrow</h3>
+                    <figure  class="img-temp"><img src="js" alt="forecast" id="icon2" /><figcaption></figcaption></figure>
+                    <p class="temperature">Temperature<br><span id="temp2"></span>&deg;F</p>
+                    <p class="time"><span id="time2"></span></p>
+                </div>
+                <!-- <div class="fore f3">
+                    <h3 class="day-temp">After the day after tomorrow</h3>
+                    <figure class="img-temp"><img src="js" alt="forecast" id="icon3" /><figcaption></figcaption></figure>
+                    <p class="temperature">Temperature<br><span id="temp3"></span>&deg;F</p>
+                    <p class="time"><span id="time3"></span></p>
+                </div> -->
+            </section>
         </main>
         <!--FOOTER-->
         <footer>
             <div class="footer">
+                <h3>Contact Information</h3>
                 <section class="section-footer1">
-                    <h3>Contact Information</h3>
+                    <h3>Map</h3>
                     <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832851,-77.0978278,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank"><img src="img/adress.webp" alt="map"></a>
                     <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
                 </section>
@@ -125,7 +161,7 @@
                     <img src="img/templeINNlogo.webp" alt="Logo of Temple INN & Suites">
                     <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
                 </div>
-                <p>&copy; <span id="year"></span> | Temple INN & Suites</p>
+                <p id="copy">&copy; <span id="year"></span> | Temple INN & Suites</p>
             </div>
         </footer>
     </div>
