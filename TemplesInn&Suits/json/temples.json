@@ -1,0 +1,53 @@
+{
+    "temples": [
+        {
+            "name":     "Concepción Chile Temple",
+            "address":  "1525 Pedro de Valdivia Concepción Bio-Bio, Chile",
+            "tel":      "(56) 41-3834700",
+            "email":  "chile_temple@lds.org",
+            "services":  "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":  "3 October 2009-Announced. 17 October 2015-Groundbreaking. 28 October 2018-Dedicated.",
+            "ordinance":  "10:00am - 8:00pm (hourly)",
+            "session":  "10:00am - 9:00pm (hourly)",
+            "closure":  "Monday, 9 May 2022 - Monday, 23 May 2022 - Saturday, 1 October 2022 - Monday, 14 November 2022 - Monday, 28 November 2022",
+            "image":    "img/json/Concepcion-Chile-Temple.jpg"
+        },
+        {
+            "name":     "Salt Lake Temple",
+            "address":  "50 W North Temple St, Salt Lake City UT 84150-9709, United States",
+            "tel":      "(01) 413-834-700",
+            "email":  "salt_lake_temple@lds.org",
+            "services":  "Temple closed during renovation",
+            "history":  "28 July 1847 Announced. 14 February 1853 Groundbreaking. 6 April 1893 Dedicated.",
+            "ordinance":  "Temple closed during renovation",
+            "session":  "Temple closed during renovation",
+            "closure":  "Temple closed during renovation",
+            "image":    "img/json/slctemple.jpg"
+        },
+        {
+            "name":     "Tijuana Mexico Temple",
+            "address":  "2 October 2010, Announced. 18 August 2012, Groundbreaking. 13 December 2015, Dedicated",
+            "tel":      "(52) 664-969-2690",
+            "email":  "tijuana_temple@lds.org",
+            "services":  "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":  "Monday, 27 June 2022 - Monday, 11 July 2022 - Saturday, 1 October 2022 - Monday, 28 November 2022 - Monday, 12 December 2022",
+            "ordinance":  "10:00am - 8:00pm (hourly)",
+            "session":  "10:00am - 9:00pm (hourly)",
+            "closure":  "Monday, 27 June 2022 - Monday, 11 July 2022 - Saturday, 1 October 2022 - Monday, 28 November 2022 - Monday, 12 December 2022",
+            "image":    "img/json/tijuana-mexico-temple.jpg"
+        },
+        {
+            "name":     "Tucson Arizona Temple",
+            "address":  "7281 North Skyline Dr, Tucson AZ 85718, United States",
+            "tel":      "(1) 520-395-3900",
+            "email":  "tucson_temple@lds.org",
+            "services":  "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":  "6 October 2012, Announced. 17 October 2015, Groundbreaking. 13 August 2017, Dedicated.",
+            "ordinance":  "10:00am - 8:00pm (hourly)",
+            "session":  "10:00am - 9:00pm (hourly)",
+            "closure":  "Monday, 4 July 2022 - Monday, 18 July 2022 -Saturday, 1 October 2022 - Wednesday, 23 November 2022 - Thursday, 24 November",
+            "image":    "img/json/tucson-arizona-temple.jpg"
+        }
+
+    ]
+}

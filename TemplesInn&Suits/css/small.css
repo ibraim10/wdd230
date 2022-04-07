@@ -296,4 +296,122 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: rgb(16, 238, 16) solid 5px;
 }
-/*---------------ALERT-------------*/
+
+/*----------------TEMPLES----------------*/
+
+main.temples h1,main.temples h2{
+    text-align: center;
+}
+main.temples section{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0px 9px 6px 1px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 9px 6px 1px rgba(0,0,0,0.47);
+    box-shadow: 0px 9px 6px 1px rgba(0,0,0,0.47);
+}
+main.temples div.cards{
+    display: block;
+}
+main.temples div{
+    display: block;
+}
+
+main.temples div.open1 {
+    display: block;
+}
+#templeBtn:hover{
+    color: #FF0022;
+    transition: 0.3s;
+}
+#templeBtn span:nth-child(1){
+    display: block;
+}
+#templeBtn span:nth-child(2){
+    display: none;
+}
+#templeBtn.open1 span:nth-child(1){
+    display: none;
+}
+#templeBtn.open1 span:nth-child(2){
+    display: block;
+}
+main.temples button{
+    background-color: transparent;
+    border: 2px solid #fec601ff;
+    margin-top: 0.5rem;
+} 
+main.temples button:hover{
+    border: 2px solid #020122ff;
+    transition: 0.1s;
+}
+/*-----------------RESERVATION-------------*/
+main.reservation{
+    background: url(../img/aubrey-temple.webp);
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 40%;
+}
+main.reservation h1, 
+main.reservation div, 
+main.reservation form,
+main.reservation section,
+main.reservation h3, 
+main.reservation p, 
+main.reservation fieldset,
+main.reservation label,
+main.reservation legend{
+    background-color: transparent;
+}
+main.reservation h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+main.reservation fieldset{
+    background-color: rgba(254, 255, 254, 0.614);
+}
+main.reservation div.room{
+    padding: 1rem;
+    border: 1px solid #fec601ff;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(254, 255, 254, 0.614);
+}
+main.reservation label.sbs{
+    display: block;
+    padding: .75rem 0;
+    margin-left: 2%;
+    color: #3993ddff;
+    font-weight: bold;
+    text-align:start;
+}
+main.reservation label.sbs input{
+    margin-right: 2%;  
+}
+main.reservation label input{
+    background-color: rgba(255, 255, 255, 0.89);
+}
+main.reservation label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: #020122ff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+main.reservation select{
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #3993ddff;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #020202ff;
+    width: 80%;
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+main.reservation option{
+    margin: 2rem;
+    width: 50%;
+}

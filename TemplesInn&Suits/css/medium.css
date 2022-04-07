@@ -112,4 +112,20 @@
     .section-footer3 img{
         width: 20%;
     }
+    /*----------------TEMPLES------------*/
+    main.temples div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+    main.temples h1{
+        grid-column: 1/3;
+    }
+    /*-----------------RESERVATION-------------*/
+    main.reservation div.form-container{
+        width: 80%;
+        margin: auto;
+    }
+
 }

@@ -194,4 +194,13 @@
     footer .fa{
         margin: 0 0.5em 1em;
     }
+    /*------------TEMPLES---------*/
+    main.temples{
+        width: 80%;
+        margin: auto;
+    }
+    /*-----------------RESERVATION-------------*/
+    main.reservation div.form-container{
+        width: 50%;
+    }
 }

@@ -1,11 +1,136 @@
-<ul id="primaryNav">
-    <li class="active"><a href="">Home</a></li>
-    <li><a href="temple.html">Temple</a></li>
-    <li><a href="reservation.html">Reservation</a></li>
-    <li><a href="services.html">Services</a>
-        <ul>
-            <li><a href="">Reception</a></li>
-            <li><a href="">Full-time temple missionary</a></li>
-        </ul>
-    </li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempleINN&Suites</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <!--Css Styles-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/larger.css">
+    <!--JavaScript-->
+    <script defer src="js/menu.js"></script>
+    <!--Favico-->
+    <link rel="shortcut icon" href="img/templeINN.webp">
+    <!--social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--HEADER-->
+        <header>
+            <div class="header">
+                <div class="logoHeader">
+                    <img src="img/templeINNlogo.webp" alt="Logo of Temple INN & Suites">
+                </div>
+                <div class="nav">
+                    <nav>
+                        <button id="hamburguerBtn"><span>&#9776;</span><span> X</span></button>
+                        <ul id="primaryNav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="temple.html">Temple</a></li>
+                            <li class="active"><a href="">Reservation</a></li>
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                    </nav>
+                    <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
+                </div>
+            </div>
+        </header>
+        <!--MAIN-->
+        <main class="reservation">
+            <div class="form-container">
+                <h1>Reservation</h1>
+                <div class="room">
+                    <section>
+                        <h3>Single</h3>
+                        <p>
+                            A room assigned to one person. May have one bed
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Double</h3>
+                        <p>
+                            A room assigned to two people. May have one or more beds. 
+                        </p>
+                    </section>
+                        <h3>Quad</h3>
+                        <p>
+                            A room assigned to four people. May have two or more beds.                        
+                        </p>
+                    <section>
+                        <h3>Suite</h3>
+                        <p>
+                            A parlour or living room connected to one or more bedrooms.
+                        </p>
+                    </section>
+                </div>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                    <label class="top" for="ln">Last Name* <input type="text" name="lname" id="ln" required></label>
+                    <label class="top" >Country<input type="text" name="country" pattern="[a-zA-Z-_\s]" title="This field accepts alpha characters"></label>
+                    <label class="top" >Email<input type="email" name="email" placeholder="Jonh@gmail.com"></label>
+                    <label class="top" >Cell Phone*<input type="tel" name="tel" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation</legend>
+                    <label class="top" >Location</label>
+                    <select name="location" required>
+                        <option value="">Select one</option>
+                        <option value="México">México</option>
+                        <option value="United States">United States</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Brazil">Brazil</option>
+                    </select>
+                    <label class="top">Date* <input type="date" name="date" required></label>
+                    <label class="top">Numer of rooms* <input type="number" name="number" required></label>
+                    <div>Type of room</div>
+                    <label class="sbs"><input type="radio" name="room" value="Single">Single</label>
+                    <label class="sbs"><input type="radio" name="room" value="Double">Double</label>
+                    <label class="sbs"><input type="radio" name="room" value="Quad">Quad</label>
+                    <label class="sbs"><input type="radio" name="room" value="Suite">Suite</label>
+                    <label class="sbs"><textarea name="textarea" cols="30" rows="10">special accommodations/comments</textarea></label>
+                </fieldset>
+                <input type="submit" value="Make a Reservation" class="submitBtn">
+            </form>
+            </div>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="footer">
+                <h3>Contact Information</h3>
+                <section class="section-footer1">
+                    <h3>Map</h3>
+                    <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EE.+UU./@38.9832851,-77.0978278,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank"><img src="img/adress.webp" alt="map"></a>
+                    <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                </section>
+                <div class="section-footer2">
+                    <form method="get" action="thanksQuestion.html">
+                        <fieldset>
+                            <legend>CONTACT FORM</legend>
+                            <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                            <label class="top" >Email*<input type="email" name="email" placeholder="Jonh@gmail.com" required></label>
+                            <label class="sbs"><textarea name="textarea" cols="30" rows="10" required>Questions*</textarea></label>
+                        </fieldset>
+                        <input type="submit" value="Send my Question" class="submitBtn">
+                    </form>
+                </div>
+                <div class="section-footer3">
+                    <img src="img/templeINNlogo.webp" alt="Logo of Temple INN & Suites">
+                    <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
+                </div>
+                <p id="copy">&copy; <span id="year"></span> | Temple INN & Suites</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
