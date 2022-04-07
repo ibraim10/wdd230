@@ -154,7 +154,6 @@
     }
     footer div.footer h3{
         grid-column: 1/4;
-        border-top: 1px solid #3993ddff;
         padding-top: 0.7rem;
     }
     footer div.footer div.section-footer3{
@@ -214,7 +213,10 @@
     }
     /*------------ROOM----------*/
     main.full div.container-full{
-        width: 50%;  
+        width: 50%; 
+        
     }
-
-}
+    .container-reception{
+        margin: auto;
+        width: 50%;
+    }

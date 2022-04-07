@@ -453,3 +453,14 @@ main.full .container-full div.room-form{
     margin: auto;
     width: 75%;
 }
+/*-----reception---------*/
+.container-reception{
+    text-align: center;
+}
+
+.container-reception p{
+    color: #3993ddff;
+}
+.container-reception img{
+    width: 50%;
+}
