@@ -203,4 +203,14 @@
     main.reservation div.form-container{
         width: 50%;
     }
+    /*----------SERVICES---------*/
+
+
+    main.services section{
+        width: 50%;
+    }
+    main.services div.sub{
+        width: 50%;
+    }
+
 }

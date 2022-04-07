@@ -415,3 +415,21 @@ main.reservation option{
     margin: 2rem;
     width: 50%;
 }
+/*----------SERVICES---------*/
+main.services h1{
+    text-align: center;
+}
+main.services h2{
+    color: #fec601ff;
+}
+main.services section{
+    margin: auto;
+    padding: 1rem;
+}
+main.services div.sub{
+    width: 80%;
+    margin: auto;
+}
+main.services div.sub img{
+    border: 1px double #fec601ff;
+}

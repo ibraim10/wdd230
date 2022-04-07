@@ -127,5 +127,23 @@
         width: 80%;
         margin: auto;
     }
+    /*----------SERVICES---------*/
+
+
+    main.services section{
+        width: 80%;
+        margin: auto;
+        padding: 1rem;
+    }
+    main.services div.sub{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+    main.services div.sub img{
+        border: 2px double #fec601ff;
+    }
 
 }
