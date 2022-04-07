@@ -36,7 +36,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="temple.html">Temple</a></li>
                             <li><a href="reservation.html">Reservation</a></li>
-                            <li class="active"><a href="">Services</a></li>
+                            <li class="active"><a href="services.html">Services</a></li>
                         </ul>
                     </nav>
                     <div class="socialMedia"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-instagram"></a></div>
@@ -44,44 +44,41 @@
             </div>
         </header>
         <!--MAIN-->
-        <main class="services">
-            <div class="container-services">
-                <h1>Services</h1>
-                <section>
-                    <h2>Specialized Services</h2>
-                    <ul>
-                        <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
-                        <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
-                        <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
-                        <li>Temple history themed reception and sitting area</li>
-                        <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
-                        <li>A family search center that supports family search and ordinance work</li>
-                        <li>Contact us to know more..</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Free Amenities</h2>
-                    <ul>
-                        <li>Breakfast</li>
-                        <li>Exercise/workout room</li>
-                        <li>Indoor pool</li>
-                        <li>WiFi high-speed internet access and smart TVs</li>
-                        <li>Parking</li>
-                        <li>Temple shuttle</li>
-                        <li>Family history consultation and family ordinance card service</li>
-                    </ul>
-                </section>
-                <div class="sub">
+        <main class="full">
+            <div class="container-full">
+                <h1>Full-time temple missionary</h1>
+                <div class="rooms">
                     <div>
-                        <h3>Reception</h3>
-                        <a href="full-time.html"><img src="img/hotel3.1.jpg" alt="Photo of a room"></a>
-                        <p>see more</p>
+                        <h2>Single</h2>
+                        <img src="img/hotel1.1.jpg" alt="Single room">
+                        <p>A room assigned to one person. May have one bed</p>
                     </div>
                     <div>
-                        <h3>Full-time temple missionary</h3>
-                        <a href="reception.html"><img src="img/wedding.1.jpg" alt="Photo of a room"></a>
-                        <p>see more</p>
+                        <h2>Double</h2>
+                        <img src="img/hotel2.1.jpg" alt="Double room">
+                        <p>A room assigned to two people. May have one or more beds.</p>
                     </div>
+                    <div>
+                        <h2>Quad</h2>
+                        <img src="img/hotel3.1.jpg" alt="Quad room">
+                        <p>A room assigned to four people. May have two or more beds.</p>
+                    </div>
+                    <div>
+                        <h2>Suite</h2>
+                        <img src="img/hotel5.1.jpg" alt="Suite room">
+                        <p>A parlour or living room connected to one or more bedrooms.</p>
+                    </div>
+                </div>
+                <div class="section-footer2 room-form">
+                    <form method="get" action="thanksQuestion.html">
+                        <fieldset>
+                            <legend>More about rooms</legend>
+                            <label class="top" for="fn">First Name* <input type="text" name="fname" id="fn" required></label>
+                            <label class="top" >Email*<input type="email" name="email" placeholder="Jonh@gmail.com" required></label>
+                            <label class="sbs"><textarea name="textarea" cols="30" rows="10" required>Questions*</textarea></label>
+                        </fieldset>
+                        <input type="submit" value="Send my Question" class="submitBtn">
+                    </form>
                 </div>
             </div>
         </main>

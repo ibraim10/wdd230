@@ -212,5 +212,9 @@
     main.services div.sub{
         width: 50%;
     }
+    /*------------ROOM----------*/
+    main.full div.container-full{
+        width: 50%;  
+    }
 
 }

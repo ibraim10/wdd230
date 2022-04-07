@@ -433,3 +433,23 @@ main.services div.sub{
 main.services div.sub img{
     border: 1px double #fec601ff;
 }
+/*---------FULL-------------*/
+main.full h1, main.full h2, main.full p{
+    text-align: center;
+    padding: 1rem;
+}
+main.full div.container-full{
+    display: block;
+    margin: auto;    
+}
+main.full .container-full div.rooms{
+    margin: auto;
+}
+main.full .container-full div.rooms div{
+    border: 1px solid #020202ff;
+}
+
+main.full .container-full div.room-form{
+    margin: auto;
+    width: 75%;
+}
